@@ -26,7 +26,7 @@ def play(cool_songs)
 
     if (1..9).to_a.index(input.to_i) != nil
       puts "Playing #{cool_songs[input.to_i - 1]}"
-    elsif my_songs.index(input) != nil
+    elsif cool_songs.index(input) != nil
       puts "Playing #{input}"
     else
       puts "Invalid input, please try again"
