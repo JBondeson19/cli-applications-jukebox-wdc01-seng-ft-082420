@@ -45,7 +45,7 @@ def run(cool_songs)
 
   while input != "exit"
     if input == "list"
-      list(my_songs)
+      list(cool_songs)
       input = prompt()
     elsif input == "play"
       play(my_songs)
