@@ -19,15 +19,17 @@ puts "- play : lets you choose a song to play"
 puts "- exit : exits this program"
 end
 
+
+def list
+
+end
+
 def play
 puts "Please enter a song or number:"
 user_input = gets.chomp.to_i
 
 end
 
-def list
-
-end
 
 def exit_jukebox
 end
