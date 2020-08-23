@@ -20,7 +20,8 @@ puts "- exit : exits this program"
 end
 
 def play
-
+puts "Please enter a song or number:"
+user_input = gets.chomp
 end
 
 def list
