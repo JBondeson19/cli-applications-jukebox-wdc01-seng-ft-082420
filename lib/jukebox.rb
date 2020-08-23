@@ -14,9 +14,8 @@ end
 
 def list (cool_songs)
   cool_songs.each do |song|
-
+sbinding.pry
   end
-#sbinding.pry
 end
 
 
