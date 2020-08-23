@@ -12,7 +12,7 @@ puts "- exit : exits this program"
 end
 
 
-def list (x)
+def list (cool_songs)
 binding.pry
 end
 
