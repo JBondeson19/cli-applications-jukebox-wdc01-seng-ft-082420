@@ -13,7 +13,7 @@ end
 
 
 def list (cool_songs)
-  cool_songs.each do |song|
+  cool_songs.each do |song, index|
   binding.pry
   end
 end
