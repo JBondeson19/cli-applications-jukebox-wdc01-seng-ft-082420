@@ -23,8 +23,7 @@ end
 def play
 puts "Please enter a song or number:"
 user_input = gets.chomp()
-
-
+binding.pry
 end
 
 
