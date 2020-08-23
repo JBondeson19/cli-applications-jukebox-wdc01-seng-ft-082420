@@ -48,7 +48,7 @@ def run(cool_songs)
       list(cool_songs)
       input = prompt()
     elsif input == "play"
-      play(my_songs)
+      play(cool_songs)
       input = prompt()
     elsif input == "help"
       help()
