@@ -12,7 +12,7 @@ puts "- exit : exits this program"
 end
 
 
-ddef list(my_songs)
+def list(my_songs)
   my_songs.each_with_index do |song, index|
     puts "#{index+1}. #{song}"
   end
