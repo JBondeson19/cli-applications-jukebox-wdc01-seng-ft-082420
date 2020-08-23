@@ -21,7 +21,7 @@ end
 
 
 def list (x)
-
+binding.pry
 end
 
 
