@@ -12,9 +12,9 @@ puts "- exit : exits this program"
 end
 
 
-def list (cool_songs)
-  cool_songs.each_with_index do |song, index|
-  binding.pry
+ddef list(my_songs)
+  my_songs.each_with_index do |song, index|
+    puts "#{index+1}. #{song}"
   end
 end
 
