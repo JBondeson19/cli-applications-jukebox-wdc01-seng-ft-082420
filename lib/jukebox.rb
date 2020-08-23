@@ -4,7 +4,7 @@ require "pry"
 
 
 def help
-puts "Please enter a command:"
+puts "I accept the following commands:"
 puts "- help : displays this help message"
 puts "- list : displays a list of songs you can play"
 puts "- play : lets you choose a song to play"
@@ -36,29 +36,4 @@ end
 
 def exit_jukebox
   puts "Goodbye"
-end
-
-
-def run(cool_songs)
-  help()
-  input = prompt()
-
-  while input != "exit"
-    if input == "list"
-      list(cool_songs)
-      input = prompt()
-    elsif input == "play"
-      play(cool_songs)
-      input = prompt()
-    elsif input == "help"
-      help()
-      input = prompt()
-    else
-      puts "Invalid command"
-      help()
-      input = prompt()
-    end
-  end
-
-  exit_jukebox()
 end
