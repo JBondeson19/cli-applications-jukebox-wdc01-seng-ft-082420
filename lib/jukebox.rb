@@ -13,7 +13,7 @@ end
 
 
 def list (cool_songs)
-binding.pry
+#binding.pry
 end
 
 
