@@ -20,9 +20,11 @@ puts "- exit : exits this program"
 end
 
 
-def list
+def list (x)
 
 end
+
+
 
 def play
 puts "Please enter a song or number:"
