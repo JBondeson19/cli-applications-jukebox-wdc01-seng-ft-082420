@@ -20,12 +20,12 @@ end
 
 
 
-def play
+def play(cool_songs)
   puts "Please enter a song name or number:"
     input = gets.chomp()
 
     if (1..9).to_a.index(input.to_i) != nil
-      puts "Playing #{my_songs[input.to_i - 1]}"
+      puts "Playing #{cool_songs[input.to_i - 1]}"
     elsif my_songs.index(input) != nil
       puts "Playing #{input}"
     else
